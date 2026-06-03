@@ -8,3 +8,36 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.book_table {
+  width: 900px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.book_table th {
+  text-align: center;
+}
+
+.book_table td a {
+  margin: 0 5px;
+}
+
+.book_table th:nth-child(1),
+.book_table td:nth-child(1) {
+  width: 25%;
+}
+
+.book_table th:nth-child(2),
+.book_table td:nth-child(2) {
+  width: 50%;
+}
+
+.book_table th:nth-child(3),
+.book_table td:nth-child(3) {
+  width: 25%;
+}
+
+.success_message {
+  color: green;
+}
